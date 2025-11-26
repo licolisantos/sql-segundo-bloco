@@ -1,1 +1,48 @@
 .DS_Store
+# ======================================
+# .gitignore para projeto SQL (Mac + VSCode)
+# ======================================
+
+# 🖥️ Sistema operacional (macOS)
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icones do Finder
+Icon
+
+# Arquivos temporários do sistema
+*.swp
+*.swo
+
+# ======================================
+# 🔧 VSCode
+# ======================================
+.vscode/
+.history/
+
+# ======================================
+# 🧪 Arquivos de Log
+# ======================================
+*.log
+
+# ======================================
+# 🗃️ MySQL / dumps / backups grandes
+# ======================================
+# Se você fizer export de banco pelo Workbench
+*.sql.bak
+*.backup.sql
+*.dump
+*.sql~
+
+# ======================================
+# 🚫 Ignorar arquivos sensíveis (caso existam)
+# ======================================
+.env
+*.env
+.env.*
+
+# ======================================
+# 🔍 Ignorar qualquer arquivo de cache
+# ======================================
+*.cache
