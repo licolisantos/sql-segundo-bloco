@@ -1,63 +1,96 @@
 # 🚀 Bloco 2: Banco de Dados Relacionais (SQL) | Bootcamp Generation Brasil
 
+Um repositório estruturado, limpo e profissional para concentrar **todo o conteúdo do Bloco 2**, incluindo aulas, exercícios, práticas guiadas e estudos de SQL.
+
+---
+
 ## 🎯 Objetivo
-Este repositório é dedicado a armazenar todos os projetos, exercícios e anotações desenvolvidas durante o Bloco 2 do Bootcamp da Generation Brasil, com foco total na linguagem **SQL (Structured Query Language)** e no gerenciamento de dados relacionais.
+O propósito deste repositório é registrar e organizar os **projetos, scripts e anotações** desenvolvidos durante o Bloco 2 do Bootcamp da Generation Brasil, com foco em:
+
+- Fundamentos de **bancos de dados relacionais**.
+- Uso da linguagem **SQL (Structured Query Language)**.
+- Manipulação e definição de dados (**DML / DDL**).
+- Construção de consultas simples e avançadas (**SELECT, JOIN, filtros, agregações**).
+
+---
 
 ## 🛠️ Tecnologias Utilizadas
 
 ![Git Badge](https://img.shields.io/badge/Git-F05032.svg?style=flat&logo=git&logoColor=white)
 ![SQL Badge](https://img.shields.io/badge/SQL-%23007ACC.svg?style=flat&logo=mysql&logoColor=white)
 ![MySQL Badge](https://img.shields.io/badge/MySQL-%23005C84.svg?style=flat&logo=mysql&logoColor=white)
-![MySQL Workbench](https://img.shields.io/badge/MySQL%20Workbench-%234479A1.svg?style=flat\&logo=mysql\&logoColor=white)
+![MySQL Workbench Badge](https://img.shields.io/badge/MySQL%20Workbench-%234479A1.svg?style=flat&logo=mysql&logoColor=white)
 
+Essas ferramentas compõem o ambiente utilizado para criação, gerenciamento e consulta de bancos de dados relacionais.
+
+---
 
 ## 📚 Conteúdo Abordado
-O Bloco 2 cobre os pilares da manipulação e definição de dados em um banco de dados relacional (DDL e DML), além de consultas avançadas (JOIN).
+O repositório reúne conteúdos essenciais para consolidar conceitos do módulo, incluindo:
+
+- Criação de bancos de dados (**CREATE DATABASE**)
+- Criação de tabelas com chaves primárias (**CREATE TABLE / PRIMARY KEY**)
+- Tipos de dados e boas práticas de modelagem
+- Inserção, atualização e remoção de dados (**INSERT, UPDATE, DELETE**)
+- Consultas com filtros (**WHERE**, operadores lógicos e comparativos)
+- Ordenação e projeção de dados (**ORDER BY**, colunas específicas)
+- Consultas com junção (**INNER JOIN**, **LEFT JOIN**, etc.)
+- Scripts práticos para exercícios avaliativos
+
+---
 
 ## 📂 Estrutura do Repositório
+
 | Pasta | Conteúdo Principal | Descrição |
-| :--- | :--- | :--- |
-| **`aulas-sql/`** | Scripts de demonstração e anotações. | Contém os arquivos SQL usados durante as **aulas e exemplos teóricos** sobre comandos DDL, DML e consultas. |
-| **`exercicios-sql/`** | Listas de exercícios e desafios. | Scripts para **prática e fixação** do conteúdo, incluindo desafios de lógica e resolução de *queries*. |
-
-## ▶️  Como usar
-
-1. Abra o MySQL Workbench ou seu cliente SQL preferido.
-2. Crie (ou selecione) uma conexão/servidor MySQL local ou remoto.
-3. Abra o arquivo `.sql` dentro de `aulas-sql/` ou `exercicios/` e execute-o.
-
-**Dicas:**
-
-* Se o script criar um banco de dados, atente-se ao nome do banco e à cláusula `USE nome_do_banco;`.
-* Para grandes scripts, importe-os usando o menu de importação do Workbench se preferir.
+|-------|--------------------|-----------|
+| **`aulas-sql/`** | Scripts de aula e demonstrações | Contém códigos SQL apresentados em aula, exemplos explicados e testes feitos durante o aprendizado. |
+| **`exercicios-sql/`** | Exercícios oficiais | Contém todos os exercícios propostos, incluindo criação de bancos, tabelas, consultas e atualizações. |
 
 ---
 
-## 📌 Boas práticas
+## ▶️ Como Usar
+Para executar qualquer script deste repositório:
 
-* Teste cada script em um schema separado para evitar sobrescrever dados.
-* Use comentários (`-- comentário` ou `/* comentário */`) para explicar trechos importantes.
-* Faça `COMMIT;` quando usar transações e `ROLLBACK;` para desfazer durante testes.
+1. Abra o **MySQL Workbench** (ou outra ferramenta de sua preferência).
+2. Conecte-se ao seu servidor/banco local.
+3. Abra o arquivo `.sql` que deseja executar.
+4. Execute os comandos na ordem em que aparecem.
+
+### 🔎 Dicas importantes:
+- Sempre confira o nome do banco e use `USE nome_do_banco;` antes de rodar os comandos.
+- Para scripts grandes, utilize o recurso de **importação** do Workbench.
+- Em ambientes de teste, utilize schemas separados para evitar conflitos.
 
 ---
 
-## Licença
+## 📌 Boas Práticas
+- Utilize comentários no código para organizar melhor seu raciocínio.
+- Evite sobrescrever dados: sempre valide antes de executar **UPDATE** e **DELETE**.
+- Utilize `ROLLBACK;` durante testes quando estiver trabalhando com transações.
+- Nomeie bancos e tabelas seguindo padrões consistentes (**db_nome**, **tb_nome**).
 
-MIT — sinta-se livre para usar este material durante seus estudos.
+---
 
-## Contato
+## 📊 Status do Progresso
 
+![Status](https://img.shields.io/badge/Progresso-100%25-brightgreen?style=flat&logo=progress)
+![Status Exercícios](https://img.shields.io/badge/Exercícios-Concluídos-success?style=flat)
+![Status Aulas](https://img.shields.io/badge/Aulas-100%25--Revisadas-blue?style=flat)
+![Status Repositório](https://img.shields.io/badge/Organização-OK!-informational?style=flat)
 
+---
+
+## 📄 Licença
+Este repositório utiliza a licença **MIT**. Você pode usar o conteúdo para estudos, projetos pessoais ou referência.
+
+---
+
+## 📫 Contato
 
 [![Gmail Badge](https://img.shields.io/badge/Gmail-D14836.svg?style=flat&logo=gmail&logoColor=white)](mailto:joaogabriellicoli@gmail.com)  
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/licoli-santos)  
 [![GitHub Badge](https://img.shields.io/badge/GitHub-181717.svg?style=flat&logo=github&logoColor=white)](https://github.com/licolisantos)
 
-
----
 ---
 
-Feito com ❤️ por **Licoli Santos** ([@licolisantos](https://github.com/licolisantos))
-
----
----
+✨ Feito com dedicação por **Licoli Santos** ([@licolisantos](https://github.com/licolisantos)) ✨
