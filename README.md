@@ -1,5 +1,13 @@
 # 🚀 Bloco 2: Banco de Dados Relacionais (SQL) | Bootcamp Generation Brasil
 
+## 📘 Sobre o Repositório
+Repositório dedicado ao estudo de **SQL** no Bloco 2 do Bootcamp Generation Brasil. Aqui você encontra scripts de aula e exercícios práticos que demonstram conceitos essenciais de bancos de dados relacionais.
+
+Este repositório segue boas práticas de documentação, organização e versionamento, garantindo clareza e fácil navegação.
+
+---
+: Banco de Dados Relacionais (SQL) | Bootcamp Generation Brasil
+
 Um repositório estruturado, limpo e profissional para concentrar **todo o conteúdo do Bloco 2**, incluindo aulas, exercícios, práticas guiadas e estudos de SQL.
 
 ---
@@ -41,8 +49,15 @@ O repositório reúne conteúdos essenciais para consolidar conceitos do módulo
 
 ## 📂 Estrutura do Repositório
 
-| Pasta | Conteúdo Principal | Descrição |
-|-------|--------------------|-----------|
+Aqui estão as pastas principais deste repositório, descritas de forma **simples, direta e objetiva**:
+
+### 📁 **aulas-sql/**
+Contém os scripts utilizados durante as aulas do bloco de SQL. Inclui exemplos práticos, comandos básicos e demonstrativos apresentados pelos instrutores.
+
+### 📁 **exercicios-sql/**
+Reúne todos os exercícios realizados no módulo: criação de bancos e tabelas, consultas, filtros, atualizações e desafios aplicados para fixação.
+
+-------|--------------------|-----------|
 | **`aulas-sql/`** | Scripts de aula e demonstrações | Contém códigos SQL apresentados em aula, exemplos explicados e testes feitos durante o aprendizado. |
 | **`exercicios-sql/`** | Exercícios oficiais | Contém todos os exercícios propostos, incluindo criação de bancos, tabelas, consultas e atualizações. |
 
